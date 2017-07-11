@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+body {
+	background-color: #e8f3f8;
+}
+
+#inline{
+	display: inline-block;
+}
+
+h1{
+	text-align:center;
+	background-color:#ccffcc;
+}
+
+h2{
+	text-align:center;
+	background-color: #2a8000;
+}
+th, td {
+	text-align: center;
+}
+
+input[type="submit"] {
+	width: 200px;
+	height: 30px;
+	border: 1px solid;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: ariel;
+}
+
+#add, #delete {
+	display: inline-block;
+}
+
+input[type="submit"]:hover {
+	background-color: steelblue;
+}
